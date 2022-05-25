@@ -1,0 +1,47 @@
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#form button {
+    float: right;
+    background: green;
+}
+
+#block {
+    border: 1px solid #000;
+}
+
+table {
+    min-width: 400px;
+    border: 1px solid #000;
+}
+
+table thead {
+    background: #34344d;
+    color: #fff;
+}
+
+tbody tr:hover {
+    background: #3434;
+    color: #fff;
+    cursor: pointer;
+}
+
+.del {
+    background: red;
+    color: #fff;
+}
+
+#main_menu {
+    margin: 10px; padding: 0; list-style: none;
+    font-size: 24px; width: 200px; background: #eee;
+    cursor: pointer;
+}
+
+#main_menu li { margin-bottom: 10px; padding: 5px;}
+#main_menu li:hover {background: #FF4EF5;}

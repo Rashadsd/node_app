@@ -1,0 +1,21 @@
+{
+  "name": "example-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "object-assign": "^4.1.1",
+    "path": "^0.12.7",
+    "vary": "^1.1.2"
+  },
+  "scripts": {
+    "start": "nodemon serv.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
